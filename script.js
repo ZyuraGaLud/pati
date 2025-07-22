@@ -46,9 +46,9 @@ let currentGameState = {}; // 現在のゲーム状態を保持
 function updateGameFromPython(pythonGameState) {
     currentGameState = {
         score: pythonGameState.get("score"),
-        balls: pythonGameState.get("balls"), // PyListをJS Arrayに変換
-        pins: pythonGameState.get("pins"),   // PyListをJS Arrayに変換
-        pockets: pythonGameState.get("pockets"), // PyListをJS Arrayに変換
+        balls: pythonGameState.get("balls"), 
+        pins: pythonGameState.get("pins"), 
+        pockets: pythonGameState.get("pockets"), 
         game_status: pythonGameState.get("game_status"),
         big_win_start_time: pythonGameState.get("big_win_start_time"),
         current_big_win_message: pythonGameState.get("current_big_win_message"),
