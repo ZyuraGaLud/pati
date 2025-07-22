@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden; /* スクロールバーが表示されないように */
+}
+
+.game-container {
+    text-align: center;
+    border: 2px solid #555;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+canvas {
+    background-color: #000;
+    display: block; /* 余分なスペースをなくす */
+    margin: 0 auto;
+    border: 1px solid #777;
+}
+
+.controls {
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: #FFD700; /* 金色っぽい色 */
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
